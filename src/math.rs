@@ -9,7 +9,7 @@ impl Vec2 {
         return Vec2 { x: 0.0, y: 0.0 };
     }
 
-    fn add(self: Vec2, v: Vec2) -> Vec2 {
+    pub fn add(self: Vec2, v: Vec2) -> Vec2 {
         return Vec2 {
             x: self.x + v.x,
             y: self.y + v.y,
